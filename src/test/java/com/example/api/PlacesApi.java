@@ -1,12 +1,10 @@
 package com.example.api;
-
 import com.example.utils.payloads.Payload;
-
 import io.restassured.response.Response;
-
 import static io.restassured.RestAssured.given;
 
 public class PlacesApi {
+
     private static final String API_KEY = "qaclick123";
 
     public Response addPlace() {
