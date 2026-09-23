@@ -7,6 +7,7 @@ import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -50,8 +51,8 @@ public class PlacesAPILayerE2ETest {
         JsonPath jsonPath = JsonUtils.stringToJsonPath(response.asString());
         String actualAddress = jsonPath.getString("address");
         System.out.println("Actual Address: " + actualAddress);
-
-        assert actualAddress.equals(newAddress);
+        Assert.assertEquals(actualAddress, newAddress, "The address does not match the expected value.");
+        //assert actualAddress.equals(newAddress);
     }
 
     @Test(dependsOnMethods = "testGetPlace")
