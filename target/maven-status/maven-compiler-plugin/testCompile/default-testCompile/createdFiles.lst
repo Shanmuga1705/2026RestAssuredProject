@@ -1,0 +1,8 @@
+com\example\api\PlacesApi.class
+com\example\utils\payloads\Payload.class
+com\example\tests\PlacesAPIE2ETest.class
+com\example\utils\JsonUtils.class
+com\example\tests\PlacesAPILayerE2ETest.class
+com\example\tests\StaticJSON.class
+com\example\tests\ComplexNestedJSONParse.class
+com\example\tests\DynamicJSON.class

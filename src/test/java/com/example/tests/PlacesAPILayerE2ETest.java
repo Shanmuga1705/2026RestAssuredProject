@@ -1,4 +1,4 @@
-package com.example;
+package com.example.tests;
 
 import com.example.api.PlacesApi;
 import com.example.utils.JsonUtils;
