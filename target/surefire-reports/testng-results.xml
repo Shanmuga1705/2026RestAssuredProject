@@ -1,165 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-23T07:25:13 IST" name="Rest Assured Test Suite" finished-at="2026-09-23T07:25:21 IST" duration-ms="7958">
+  <suite started-at="2026-09-23T07:51:36 IST" name="Surefire suite" finished-at="2026-09-23T07:51:37 IST" duration-ms="1602">
     <groups>
     </groups>
-    <test started-at="2026-09-23T07:25:13 IST" name="ComplexJSON Tests" finished-at="2026-09-23T07:25:21 IST" duration-ms="7958">
-      <class name="com.example.tests.StaticJSON">
-        <test-method signature="addBook()[pri:0, instance:com.example.tests.StaticJSON@2928854b]" started-at="2026-09-23T07:25:20 IST" name="addBook" finished-at="2026-09-23T07:25:21 IST" duration-ms="153" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addBook -->
-      </class> <!-- com.example.tests.StaticJSON -->
-      <class name="com.example.tests.PlacesAPIE2ETest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.tests.PlacesAPIE2ETest@d706f19]" started-at="2026-09-23T07:25:17 IST" name="setup" finished-at="2026-09-23T07:25:17 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testAddPlace()[pri:0, instance:com.example.tests.PlacesAPIE2ETest@d706f19]" started-at="2026-09-23T07:25:17 IST" name="testAddPlace" finished-at="2026-09-23T07:25:18 IST" duration-ms="199" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAddPlace -->
-        <test-method signature="testUpdatePlace()[pri:0, instance:com.example.tests.PlacesAPIE2ETest@d706f19]" started-at="2026-09-23T07:25:18 IST" name="testUpdatePlace" finished-at="2026-09-23T07:25:18 IST" depends-on-methods="com.example.tests.PlacesAPIE2ETest.testAddPlace" duration-ms="170" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUpdatePlace -->
-        <test-method signature="testGetPlace()[pri:0, instance:com.example.tests.PlacesAPIE2ETest@d706f19]" started-at="2026-09-23T07:25:18 IST" name="testGetPlace" finished-at="2026-09-23T07:25:18 IST" depends-on-methods="com.example.tests.PlacesAPIE2ETest.testUpdatePlace" duration-ms="152" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetPlace -->
-        <test-method signature="testDeletePlace()[pri:0, instance:com.example.tests.PlacesAPIE2ETest@d706f19]" started-at="2026-09-23T07:25:18 IST" name="testDeletePlace" finished-at="2026-09-23T07:25:18 IST" depends-on-methods="com.example.tests.PlacesAPIE2ETest.testGetPlace" duration-ms="119" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDeletePlace -->
-      </class> <!-- com.example.tests.PlacesAPIE2ETest -->
-      <class name="com.example.tests.DynamicJSON">
-        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:com.example.tests.DynamicJSON@6b4a4e18]" started-at="2026-09-23T07:25:15 IST" name="addBook" data-provider="BooksData" finished-at="2026-09-23T07:25:17 IST" duration-ms="1959" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abc]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addBook -->
-        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:com.example.tests.DynamicJSON@6b4a4e18]" started-at="2026-09-23T07:25:17 IST" name="addBook" data-provider="BooksData" finished-at="2026-09-23T07:25:17 IST" duration-ms="191" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[def]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addBook -->
-        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:com.example.tests.DynamicJSON@6b4a4e18]" started-at="2026-09-23T07:25:17 IST" name="addBook" data-provider="BooksData" finished-at="2026-09-23T07:25:17 IST" duration-ms="210" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ghi]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[789]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addBook -->
-        <test-method signature="deleteBook(java.lang.String,java.lang.String)[pri:0, instance:com.example.tests.DynamicJSON@6b4a4e18]" started-at="2026-09-23T07:25:17 IST" name="deleteBook" data-provider="BooksData" finished-at="2026-09-23T07:25:17 IST" depends-on-methods="com.example.tests.DynamicJSON.addBook" duration-ms="202" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abc]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteBook -->
-        <test-method signature="deleteBook(java.lang.String,java.lang.String)[pri:0, instance:com.example.tests.DynamicJSON@6b4a4e18]" started-at="2026-09-23T07:25:17 IST" name="deleteBook" data-provider="BooksData" finished-at="2026-09-23T07:25:17 IST" depends-on-methods="com.example.tests.DynamicJSON.addBook" duration-ms="198" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[def]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteBook -->
-        <test-method signature="deleteBook(java.lang.String,java.lang.String)[pri:0, instance:com.example.tests.DynamicJSON@6b4a4e18]" started-at="2026-09-23T07:25:17 IST" name="deleteBook" data-provider="BooksData" finished-at="2026-09-23T07:25:17 IST" depends-on-methods="com.example.tests.DynamicJSON.addBook" duration-ms="151" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ghi]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[789]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteBook -->
-      </class> <!-- com.example.tests.DynamicJSON -->
-      <class name="com.example.tests.PlacesAPILayerE2ETest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.tests.PlacesAPILayerE2ETest@79efed2d]" started-at="2026-09-23T07:25:18 IST" name="setup" finished-at="2026-09-23T07:25:18 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testAddPlace()[pri:0, instance:com.example.tests.PlacesAPILayerE2ETest@79efed2d]" started-at="2026-09-23T07:25:18 IST" name="testAddPlace" finished-at="2026-09-23T07:25:18 IST" duration-ms="181" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAddPlace -->
-        <test-method signature="testUpdatePlace()[pri:0, instance:com.example.tests.PlacesAPILayerE2ETest@79efed2d]" started-at="2026-09-23T07:25:18 IST" name="testUpdatePlace" finished-at="2026-09-23T07:25:19 IST" depends-on-methods="com.example.tests.PlacesAPILayerE2ETest.testAddPlace" duration-ms="260" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUpdatePlace -->
-        <test-method signature="testGetPlace()[pri:0, instance:com.example.tests.PlacesAPILayerE2ETest@79efed2d]" started-at="2026-09-23T07:25:19 IST" name="testGetPlace" finished-at="2026-09-23T07:25:20 IST" depends-on-methods="com.example.tests.PlacesAPILayerE2ETest.testUpdatePlace" duration-ms="1750" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetPlace -->
-        <test-method signature="testDeletePlace()[pri:0, instance:com.example.tests.PlacesAPILayerE2ETest@79efed2d]" started-at="2026-09-23T07:25:20 IST" name="testDeletePlace" finished-at="2026-09-23T07:25:20 IST" depends-on-methods="com.example.tests.PlacesAPILayerE2ETest.testGetPlace" duration-ms="129" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDeletePlace -->
-      </class> <!-- com.example.tests.PlacesAPILayerE2ETest -->
+    <test started-at="2026-09-23T07:51:36 IST" name="Surefire test" finished-at="2026-09-23T07:51:37 IST" duration-ms="1602">
       <class name="com.example.tests.ComplexNestedJSONParse">
-        <test-method signature="testComplexJSONParse()[pri:0, instance:com.example.tests.ComplexNestedJSONParse@7ea37dbf]" started-at="2026-09-23T07:25:13 IST" name="testComplexJSONParse" finished-at="2026-09-23T07:25:15 IST" duration-ms="1796" status="PASS">
+        <test-method signature="testComplexJSONParse()[pri:0, instance:com.example.tests.ComplexNestedJSONParse@7ea37dbf]" started-at="2026-09-23T07:51:36 IST" name="testComplexJSONParse" finished-at="2026-09-23T07:51:37 IST" duration-ms="1541" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testComplexJSONParse -->
       </class> <!-- com.example.tests.ComplexNestedJSONParse -->
-    </test> <!-- ComplexJSON Tests -->
-  </suite> <!-- Rest Assured Test Suite -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>

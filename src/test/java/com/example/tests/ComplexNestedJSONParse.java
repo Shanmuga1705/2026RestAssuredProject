@@ -1,7 +1,5 @@
 package com.example.tests;
-
 import org.testng.annotations.Test;
-
 import com.example.utils.payloads.Payload;
 
 import org.testng.Assert;
@@ -11,7 +9,7 @@ public class ComplexNestedJSONParse {
     @Test
     public void testComplexJSONParse() {
 
-        JsonPath js = new JsonPath(Payload.coursePrice());
+        JsonPath js = new JsonPath(Payload.coursePrice()); // Create a JsonPath object from the JSON response
 
         int count = js.getInt("courses.size()");
         System.out.println("Number of courses: " + count);
@@ -41,6 +39,7 @@ public class ComplexNestedJSONParse {
 
         System.out.println("Verifying the sum of all course prices and copies matches the purchase amount:");
         int totalAmount = 0;
+        
         for (int i = 0; i < count; i++) {
             int coursePrice = js.getInt("courses[" + i + "].price");
             int courseCopies = js.getInt("courses[" + i + "].copies");
