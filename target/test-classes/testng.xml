@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rest Assured Test Suite">
+    <test name="ComplexJSON Tests">
+        <classes>
+            <class name="com.example.ComplexNestedJSONParse"/>
+            <class name="com.example.DynamicJSON"/>
+            <class name="com.example.PlacesAPIE2ETest"/>
+            <class name="com.example.PlacesAPILayerE2ETest"/>
+            <class name="com.example.StaticJSON"/>
+        </classes>
+    </test>
+</suite>
