@@ -3,10 +3,11 @@
 <suite name="Rest Assured Test Suite">
     <test name="ComplexJSON Tests">
         <classes>
-            <class name="com.example.ComplexJSONParse"/>
-            <class name="com.example.DynamicJSON"/>
-            <class name="com.example.PlacesAPIE2ETest"/>
-            <class name="com.example.CredentialsAPITest"/>
+            <class name="com.example.tests.ComplexNestedJSONParse"/>
+            <class name="com.example.tests.DynamicJSON"/>
+            <class name="com.example.tests.PlacesAPIE2ETest"/>
+            <class name="com.example.tests.PlacesAPILayerE2ETest"/>
+            <class name="com.example.tests.StaticJSON"/>
         </classes>
     </test>
 </suite>

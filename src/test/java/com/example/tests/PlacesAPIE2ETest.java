@@ -1,10 +1,12 @@
-package com.example;
+package com.example.tests;
 
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
+
+import org.testng.Assert;
 
 import com.example.utils.JsonUtils;
 import com.example.utils.payloads.Payload;
@@ -63,7 +65,7 @@ public class PlacesAPIE2ETest {
         JsonPath js1 = JsonUtils.stringToJsonPath(getResponse); //parsing the response to JsonPath object
         String actualAddress = js1.getString("address");
         System.out.println("Actual Address: " + actualAddress);
-        assertEquals(actualAddress, newAddress); //asserting the actual address with the new address
+        Assert.assertEquals(actualAddress, newAddress, "The address does not match the expected value.");
         //assert actualAddress.equals(newAddress); //asserting the actual address with the new address
     }
 
