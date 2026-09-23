@@ -1,4 +1,4 @@
-package com.example;
+package com.example.tests;
 
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
