@@ -11,6 +11,7 @@ import com.example.utils.JsonUtils;
 import com.example.utils.payloads.Payload;
 
 import org.testng.annotations.DataProvider;
+import static org.hamcrest.Matchers.equalTo;
 
 public class DynamicJSON {
 
@@ -39,7 +40,7 @@ public class DynamicJSON {
                 .body(Payload.deleteBook(isbn + aisle))
                 .when().delete("/Library/DeleteBook.php")
                 .then().assertThat().statusCode(200)
-                .body("msg", org.hamcrest.Matchers.equalTo("book is successfully deleted"));
+                .body("msg", equalTo("book is successfully deleted"));
     }
 
     @DataProvider(name ="BooksData")
