@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: com.example.tests.DynamicJSON
+Test set: com.example.tests.StaticJSON
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.004 s -- in com.example.tests.DynamicJSON
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.814 s -- in com.example.tests.StaticJSON

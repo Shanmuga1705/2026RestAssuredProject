@@ -12,20 +12,22 @@ import com.example.utils.JsonUtils;
 
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
 
 public class StaticJSON { //
     @Test
     public void addBook() throws IOException
     {
         RestAssured.baseURI="https://rahulshettyacademy.com";
-        String resp=given().queryParam("key", "qaclick123")
+        Response resp=given().queryParam("key", "qaclick123")
                 .header("Content-Type","application/json")
                 .body(GenerateStringFromResource("C:\\work\\Addbookdetails.json")) //reading the json file from the path and passing it to the body
                 .when().post("/maps/api/place/add/json")
                 .then().assertThat().statusCode(200)
-                .extract().response().asString();
+                .extract().response();
 
-        JsonPath js= JsonUtils.stringToJsonPath(resp);//parsing the response to JsonPath object
+        //JsonPath js= JsonUtils.stringToJsonPath(resp);//parsing the response to JsonPath object
+        JsonPath js = resp.jsonPath(); //parsing the response to JsonPath object
         String placeId=js.getString("place_id");
         System.out.println("Place Id is: " + placeId);
     }

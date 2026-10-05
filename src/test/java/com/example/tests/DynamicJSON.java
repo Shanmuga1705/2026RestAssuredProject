@@ -2,16 +2,14 @@ package com.example.tests;
 
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
-
 import static io.restassured.RestAssured.*;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.DataProvider;
+import static org.hamcrest.Matchers.equalTo;
 
 import com.example.utils.JsonUtils;
 import com.example.utils.payloads.Payload;
-
-import org.testng.annotations.DataProvider;
-import static org.hamcrest.Matchers.equalTo;
 
 public class DynamicJSON {
 

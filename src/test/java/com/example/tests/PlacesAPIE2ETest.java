@@ -36,6 +36,7 @@ public class PlacesAPIE2ETest {
         System.out.println(response); //printing. the response
         //JsonPath is a class from RestAssured which helps to parse the response and get the values from it
         JsonPath js = new JsonPath(response); 
+       
         placeId = js.getString("place_id");
         System.out.println("Place ID: " + placeId);
     }
