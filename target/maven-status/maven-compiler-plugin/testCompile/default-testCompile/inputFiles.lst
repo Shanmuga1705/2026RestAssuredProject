@@ -1,8 +1,11 @@
 C:\Users\jshan\OneDrive\Documents\GitHub\Rest_Assured_Project\src\test\java\com\example\api\PlacesApi.java
 C:\Users\jshan\OneDrive\Documents\GitHub\Rest_Assured_Project\src\test\java\com\example\tests\ComplexNestedJSONParse.java
 C:\Users\jshan\OneDrive\Documents\GitHub\Rest_Assured_Project\src\test\java\com\example\tests\DynamicJSON.java
+C:\Users\jshan\OneDrive\Documents\GitHub\Rest_Assured_Project\src\test\java\com\example\tests\ECommerceAPITest.java
 C:\Users\jshan\OneDrive\Documents\GitHub\Rest_Assured_Project\src\test\java\com\example\tests\PlacesAPIE2ETest.java
 C:\Users\jshan\OneDrive\Documents\GitHub\Rest_Assured_Project\src\test\java\com\example\tests\PlacesAPILayerE2ETest.java
 C:\Users\jshan\OneDrive\Documents\GitHub\Rest_Assured_Project\src\test\java\com\example\tests\StaticJSON.java
 C:\Users\jshan\OneDrive\Documents\GitHub\Rest_Assured_Project\src\test\java\com\example\utils\JsonUtils.java
+C:\Users\jshan\OneDrive\Documents\GitHub\Rest_Assured_Project\src\test\java\com\example\utils\payloads\Credentials.java
+C:\Users\jshan\OneDrive\Documents\GitHub\Rest_Assured_Project\src\test\java\com\example\utils\payloads\LoginResponse.java
 C:\Users\jshan\OneDrive\Documents\GitHub\Rest_Assured_Project\src\test\java\com\example\utils\payloads\Payload.java

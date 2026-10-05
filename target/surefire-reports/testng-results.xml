@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-05T12:47:20 IST" name="Surefire suite" finished-at="2026-10-05T12:47:25 IST" duration-ms="4479">
+  <suite started-at="2026-10-05T22:07:32 IST" name="Surefire suite" finished-at="2026-10-05T22:07:35 IST" duration-ms="2812">
     <groups>
     </groups>
-    <test started-at="2026-10-05T12:47:20 IST" name="Surefire test" finished-at="2026-10-05T12:47:25 IST" duration-ms="4479">
-      <class name="com.example.tests.StaticJSON">
-        <test-method signature="addBook()[pri:0, instance:com.example.tests.StaticJSON@656922a0]" started-at="2026-10-05T12:47:20 IST" name="addBook" finished-at="2026-10-05T12:47:25 IST" duration-ms="4419" status="PASS">
+    <test started-at="2026-10-05T22:07:32 IST" name="Surefire test" finished-at="2026-10-05T22:07:35 IST" duration-ms="2812">
+      <class name="com.example.tests.ECommerceAPITest">
+        <test-method signature="login()[pri:0, instance:com.example.tests.ECommerceAPITest@61ab89b0]" started-at="2026-10-05T22:07:33 IST" name="login" finished-at="2026-10-05T22:07:35 IST" duration-ms="2763" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addBook -->
-      </class> <!-- com.example.tests.StaticJSON -->
+        </test-method> <!-- login -->
+      </class> <!-- com.example.tests.ECommerceAPITest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

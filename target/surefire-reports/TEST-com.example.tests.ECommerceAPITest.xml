@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.tests.StaticJSON" time="5.3" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.tests.ECommerceAPITest" time="3.352" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,10 +16,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=StaticJSON test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=ECommerceAPITest test"/>
     <property name="jdk.debug" value="release"/>
     <property name="maven.home" value="C:\work\apache-maven-3.8.5-bin\apache-maven-3.8.5"/>
-    <property name="test" value="StaticJSON"/>
+    <property name="test" value="ECommerceAPITest"/>
     <property name="surefire.test.class.path" value="C:\Users\jshan\OneDrive\Documents\GitHub\Rest_Assured_Project\target\test-classes;C:\Users\jshan\OneDrive\Documents\GitHub\Rest_Assured_Project\target\classes;C:\Users\jshan\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\jshan\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\jshan\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\jshan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\jshan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\jshan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\jshan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\jshan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\jshan\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\jshan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\jshan\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\jshan\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\jshan\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\jshan\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\jshan\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\jshan\.m2\repository\org\testng\testng\7.10.0\testng-7.10.0.jar;C:\Users\jshan\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\jshan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\jshan\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\jshan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.9\jackson-databind-2.18.9.jar;C:\Users\jshan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.9\jackson-annotations-2.18.9.jar;C:\Users\jshan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.9\jackson-core-2.18.9.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\jshan"/>
@@ -64,8 +64,10 @@
     <property name="library.jansi.path" value="C:\work\apache-maven-3.8.5-bin\apache-maven-3.8.5\lib\jansi-native"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="addBook" classname="com.example.tests.StaticJSON" time="4.423">
-    <system-out><![CDATA[Place Id is: e0c4dd959bf6f562593c1d8866788c86
+  <testcase name="login" classname="com.example.tests.ECommerceAPITest" time="2.763">
+    <system-out><![CDATA[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzJjMTJlNWM0ZDBjNTFmNGYyOGMzMmYiLCJ1c2VyRW1haWwiOiJqc2hhbm11Z2FtQGV1Y2xpZC5jb20iLCJ1c2VyTW9iaWxlIjo5ODQwOTYyNzUzLCJ1c2VyUm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzkxMjE4MjU3LCJleHAiOjE4MjI3NzU4NTd9.STH7EAGtAWD-bfoTv9j1-RTvP1JEbOMWtkpGxmngpc8
+632c12e5c4d0c51f4f28c32f
+Login Successfully
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
