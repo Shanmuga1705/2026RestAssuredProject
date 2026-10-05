@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-05T12:33:48 IST" name="Surefire suite" finished-at="2026-10-05T12:33:52 IST" duration-ms="3933">
+  <suite started-at="2026-10-05T12:47:20 IST" name="Surefire suite" finished-at="2026-10-05T12:47:25 IST" duration-ms="4479">
     <groups>
     </groups>
-    <test started-at="2026-10-05T12:33:48 IST" name="Surefire test" finished-at="2026-10-05T12:33:52 IST" duration-ms="3933">
+    <test started-at="2026-10-05T12:47:20 IST" name="Surefire test" finished-at="2026-10-05T12:47:25 IST" duration-ms="4479">
       <class name="com.example.tests.StaticJSON">
-        <test-method signature="addBook()[pri:0, instance:com.example.tests.StaticJSON@5edc70ed]" started-at="2026-10-05T12:33:48 IST" name="addBook" finished-at="2026-10-05T12:33:52 IST" duration-ms="3849" status="PASS">
+        <test-method signature="addBook()[pri:0, instance:com.example.tests.StaticJSON@656922a0]" started-at="2026-10-05T12:47:20 IST" name="addBook" finished-at="2026-10-05T12:47:25 IST" duration-ms="4419" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addBook -->
