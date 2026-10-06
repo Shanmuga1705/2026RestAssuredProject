@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-05T22:07:32 IST" name="Surefire suite" finished-at="2026-10-05T22:07:35 IST" duration-ms="2812">
+  <suite started-at="2026-10-06T07:50:53 IST" name="Surefire suite" finished-at="2026-10-06T07:50:57 IST" duration-ms="3904">
     <groups>
     </groups>
-    <test started-at="2026-10-05T22:07:32 IST" name="Surefire test" finished-at="2026-10-05T22:07:35 IST" duration-ms="2812">
+    <test started-at="2026-10-06T07:50:53 IST" name="Surefire test" finished-at="2026-10-06T07:50:57 IST" duration-ms="3904">
       <class name="com.example.tests.ECommerceAPITest">
-        <test-method signature="login()[pri:0, instance:com.example.tests.ECommerceAPITest@61ab89b0]" started-at="2026-10-05T22:07:33 IST" name="login" finished-at="2026-10-05T22:07:35 IST" duration-ms="2763" status="PASS">
+        <test-method signature="login()[pri:0, instance:com.example.tests.ECommerceAPITest@5eef8a16]" started-at="2026-10-06T07:50:53 IST" name="login" finished-at="2026-10-06T07:50:57 IST" duration-ms="3840" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->

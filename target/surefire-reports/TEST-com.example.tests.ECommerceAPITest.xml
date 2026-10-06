@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.tests.ECommerceAPITest" time="3.352" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.tests.ECommerceAPITest" time="4.418" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -64,10 +64,59 @@
     <property name="library.jansi.path" value="C:\work\apache-maven-3.8.5-bin\apache-maven-3.8.5\lib\jansi-native"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="login" classname="com.example.tests.ECommerceAPITest" time="2.763">
-    <system-out><![CDATA[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzJjMTJlNWM0ZDBjNTFmNGYyOGMzMmYiLCJ1c2VyRW1haWwiOiJqc2hhbm11Z2FtQGV1Y2xpZC5jb20iLCJ1c2VyTW9iaWxlIjo5ODQwOTYyNzUzLCJ1c2VyUm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzkxMjE4MjU3LCJleHAiOjE4MjI3NzU4NTd9.STH7EAGtAWD-bfoTv9j1-RTvP1JEbOMWtkpGxmngpc8
+  <testcase name="login" classname="com.example.tests.ECommerceAPITest" time="3.83">
+    <system-out><![CDATA[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzJjMTJlNWM0ZDBjNTFmNGYyOGMzMmYiLCJ1c2VyRW1haWwiOiJqc2hhbm11Z2FtQGV1Y2xpZC5jb20iLCJ1c2VyTW9iaWxlIjo5ODQwOTYyNzUzLCJ1c2VyUm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzkxMjUzMjU1LCJleHAiOjE4MjI4MTA4NTV9.CjGo8iz93f4wjhkxYZDzyGwmrBaJ7h9lyCre1BeXsRw
 632c12e5c4d0c51f4f28c32f
 Login Successfully
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/add-product
+Proxy:			<none>
+Request params:	productName=Laptop
+				productAddedBy=632c12e5c4d0c51f4f28c32f
+				productCategory=Electronics
+				productSubCategory=Laptops
+				productPrice=45000
+				productDescription=Lenova
+				productFor=men
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzJjMTJlNWM0ZDBjNTFmNGYyOGMzMmYiLCJ1c2VyRW1haWwiOiJqc2hhbm11Z2FtQGV1Y2xpZC5jb20iLCJ1c2VyTW9iaWxlIjo5ODQwOTYyNzUzLCJ1c2VyUm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzkxMjUzMjU1LCJleHAiOjE4MjI4MTA4NTV9.CjGo8iz93f4wjhkxYZDzyGwmrBaJ7h9lyCre1BeXsRw
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = productImage; filename = laptop-small.png
+				Content-Type: application/octet-stream
+
+				src\test\resources\laptop-small.png
+Body:			<none>
+HTTP/1.1 201 Created
+Date: Tue, 06 Oct 2026 02:20:56 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 79
+ETag: W/"4f-jwsBAnA9x8gj8QggalOqvl+0TCM"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "productId": "6ac45b082be7a4bc2b8ccc28",
+    "message": "Product Added Successfully"
+}
+Product ID: 6ac45b082be7a4bc2b8ccc28
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
