@@ -8,7 +8,6 @@ import java.nio.file.Paths;
 
 import org.testng.annotations.Test;
 
-import com.example.utils.JsonUtils;
 
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
